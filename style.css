@@ -1,0 +1,122 @@
+/* ----- estilizacao da pagina: personagens de desenhos famosos  -----*/
+/* ----- por murilo roedel -----*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+/* ----- estilizacao do cabecalho e botoes ----- */
+header {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #1e293b;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+}
+
+/* ----- estilizacao do fundo ------ */
+
+main{
+  background-image: url(imagemprogrweb.png);
+  margin-top: 0;
+}
+/* ----- estilizacao dos cards ----- */
+.cards-container {
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+.card h2 {
+  font-size: 18px;
+  padding: 12px 12px 4px;
+}
+
+.card p {
+  font-size: 13px;
+  padding: 2px 12px 12px;
+  color: #cbd5e1;
+  line-height: 1.4;
+
+}
+.card p:hover {
+  color: white;
+  scale: 1.02;
+}
+
+/* ----- estilizacao do rodape -----*/
+footer {
+  background: #020617;
+  border-top: 1px solid #1e293b;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #94a3b8;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.6);
+}
+footer p {
+  margin: 5px 0;
+}
