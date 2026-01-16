@@ -1,6 +1,6 @@
-DESENHOS FAMOSOS DOS ANOS 90 E 2000
+      DESENHOS FAMOSOS DOS ANOS 90 E 2000
 
-- Descrição do Projeto
+    - Descrição do Projeto
 
 Este projeto consiste no desenvolvimento de um site web interativo que consome dados de APIs públicas sobre desenhos animados e exibe essas informações por meio de cards dinâmicos de personagens.
 
@@ -16,7 +16,7 @@ Organização visual com CSS;e
 
 Estruturação de aplicações web utilizando HTML, CSS e JavaScript puro.
 
-- Tecnologias Utilizadas
+    - Tecnologias Utilizadas
 
 HTML5 – Estruturação da página
 
@@ -26,11 +26,11 @@ JavaScript (ES6+) – Lógica da aplicação e consumo das APIs
 
 Fetch API – Comunicação com servidores externos
 
-- APIs Utilizadas
+    - APIs Utilizadas
 
 O projeto consome dados das seguintes APIs públicas:
 
-Rick and Morty API
+-Rick and Morty API
 
 Site oficial: https://rickandmortyapi.com
 
@@ -39,7 +39,7 @@ Documentação: https://rickandmortyapi.com/documentation
 Endpoint utilizado:
 https://rickandmortyapi.com/api/character
 
-PokéAPI (Pokémon)
+-PokéAPI (Pokémon)
 
 Site oficial: https://pokeapi.co
 
@@ -48,12 +48,12 @@ Documentação: https://pokeapi.co/docs/v2
 Endpoint utilizado:
 https://pokeapi.co/api/v2/pokemon?limit=150
 
-Simpsons API
+-Simpsons API
 
 Endpoint utilizado:
 https://apisimpsons.fly.dev/api/personajes?limit=30
 
 Todas as APIs são públicas e não exigem autenticação por token para uso básico.
 
-***Projeto desenvolvido por Murilo Roedel***
-**Acadêmico de Engenharia da Computação**
+    -***Projeto desenvolvido por Murilo Roedel***
+    -**Acadêmico de Engenharia da Computação**
